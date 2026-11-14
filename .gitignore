@@ -1,0 +1,37 @@
+# Credentials & Environment
+.env
+*.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local Archive, Dumps & Telemetry
+_local_archive/
+AUDIT_REPORT.md
+*.txt
+!requirements.txt
+*.json
+!package.json
+!schema*.json
+hosts_*.json
+audit_data.json
+baseline_counters.json
+evaluated_rules.json
+*.log
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Editor & OS artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
